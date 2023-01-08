@@ -1,0 +1,187 @@
+/* Universal Section{ */
+*{
+        margin: 0;
+}
+
+/* Header Section */
+.header{
+    text-align: right;
+}
+.title{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-size: 65px;
+}
+.title-description{
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+}
+.button-primary{
+    display: flex 10px;
+    position: absolute;
+    text-align: center;
+    width: 160px;
+    height: 64px;
+    left: 1200px;
+    top: 575px;
+    color: white;
+    background-color: tomato;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Main Section */
+
+section{
+    margin: 0 200px;
+    margin-top: 130px;
+    display: flex;
+}
+.failure-text{
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-left: 250px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.failure-title-description{
+    color: #444343;
+    margin-bottom: 16px;
+}
+.list{
+    color: #444343;
+    list-style: none;
+}
+ul li:before {
+    content: '✓';
+    color:rgb(72, 201, 147)
+  }
+
+.plan-title{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.plans-item-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.plans-item-subtitle{
+    font-weight: 500;
+    font-size: 21px;
+    color: #737272;
+}
+.plans-item{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+/* Watch Section */
+.call-button{
+    color: tomato;
+    background-color: white;
+    display: flex 10px;
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 250px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px
+}
+
+.watch{
+    margin-top: 120px;
+    background-image: url(../new-year-new-me-main/images/watch.png);
+    height: 300px;
+    width: 1140px;
+    background-position: 200px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.motivation{
+    font-size: 40px;
+    font-weight: 700px;
+    color:#FFFFFF;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+/* Footer Section */
+footer{
+    background-color: #151414;
+    margin-top: 130px;
+}
+.future{
+    display: flex;
+    
+}
+.future-text{
+    color: #F8F8F8;
+    text-align: left;
+}
+.footer-title{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.email{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.phone{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.subscribe{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.submit-btn{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: rgba(241, 91, 34, 1);
+    margin-top: 15px;
+    
+}
+input{
+    border:2px;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px;
+}
